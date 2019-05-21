@@ -1,7 +1,7 @@
 ---
 title: WTD PDX 2019 - Day 2
 created: '2019-05-20T13:24:38.426Z'
-modified: '2019-05-21T18:32:31.447Z'
+modified: '2019-05-21T21:36:28.650Z'
 tags: [WTD]
 ---
 
@@ -63,7 +63,36 @@ tags: [WTD]
 - Function over form (naturally)
 
 #### [Kay Miles - Product Documentation Strategy: What Is It and Why Do We Need It?](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-kay-miles)
-- 
+- Information architect presenting
+- Examples given of her company having multiple types of authors for software/hardware/systems and different tools/processes/etc. and nothing is consistent across the entire team. Have created silos across many years.
+- More time on the TECHNICAL less writer
+- Siloing and lack of focus means always just pushing out MVP
+- Strategy is a solution to the above
+- Roles include: IA (blueprints for information spaces; where nav goes, what content appears, etc.) > Content Strategy (w/w/w/w/w - content types and buckets) > Content Engineering (this makes the blueprint and theory of the IA and strategic designs into a reality; what CMS, how do we publish, etc.) = a tangible, real place for content
+- Let TW focus on writing, leave the above to strategists
+- Without a team devoted to this, we only fix what we can see (small issues like a client asking where a PDF output is); but what we don't know is a writer in another dept solved that problem differently and now creating an inconsistent experience with multiple variations of this content/info
+- **Not fixing the Root Cause** just fixing Band-Aids. Building a house of cards.
+- Doc Strategy can look at the evolution of customer experiences and solve the root cause.
+- **Users expect consistency** (the Apple example of unity across products)
+- **Users expect Google** (first results of relevant content, mindreading autocompletion)
+- How to solve? Make content SMART.
+  - Invest in *intelligent content*
+  - Make sure content is **findable, usable, useful**.
+  - If not sticking to a blueprint and consistency then keep contributing to the problem
+- Investment in design = ??
+  - Templates, guidelines, process docs = giving writers tools to think of how to write great, granular content separated from the design and look.
+  - Using metadata across microcontent (yup!)
+- Lessons learned
+  - Infrastructure refactoring is slow
+  - Ownership; more rules means less creativity; standards do not dampen TWs, make that clear to them. Strategic thought allows writers to thrive because that thinking is offloaded from them.
+- Example of over 1m pages for their company and 80% (?) had 0 views. Again reiterating to me that it doesn't matter unless content is findable and relevant.
+- Do we invest in UX? Metadata? More content people hours?
+- Decided to just stop creating content -- freaked the org out; gain was 2600 hours no longer spent pumping out unused content; the benefit is back to the sales/marketing team and use those free hours to reinvest in the existing content to pair down, fix, improve, etc.
+- Resources:
+  - [_Designing Connected Content...]((https://www.amazon.com/Designing-Connected-Content-Products-Tomorrow/dp/0134763386)_ by Mike Atherton, Carrie Hanes -- the **go to** for content modeling
+  - [_Information Architecture for the Web_](https://www.amazon.com/Information-Architecture-Beyond-Louis-Rosenfeld/dp/1491911689/ref=sr_1_1?crid=1KZQ8SCXA38SW&keywords=information+architecture+for+the+web+and+beyond&qid=1558474366&s=books&sprefix=information+architec%2Cstripbooks%2C208&sr=1-1) by Rosenfeld, Morville, Arango
+  - [_Intelligent Content_](https://www.amazon.com/Intelligent-Content-Primer-Ann-Rockley/dp/193743446X/ref=sr_1_1?keywords=intelligent+content&qid=1558474539&s=books&sr=1-1-spell) by Rockley, Cooper, Abel
+  - [_Intertwingled_](https://www.amazon.com/Intertwingled-Information-Everything-Peter-Morville/dp/0692225587/ref=sr_1_1?keywords=intertwingled&qid=1558474568&s=books&sr=1-1) by Morville
 
 #### [Jessica Parsons - Lessons Learned in a Year of Docs-Driven Development](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-jessica-parsons)
 -
@@ -72,9 +101,24 @@ tags: [WTD]
 - 
 
 ### Lightning Talks
-- 
+- Mapbox using Copyeditor, an automated checker for prose (rules like non-descriptive link text)
+  - Copyeditor is a CLI tool, checking repos, can't push/merge if rules are violated
+  - Based on alexjs.com
+  - retext -- also used
+  - Mapbox forked Alex, customized; also created a styleguide plugin
+  - Not open source but look at Alex
+- camelCase, subtle issues
+  - Git issues in differentiating between similar files in camelCase or not
+  - SEO doesn't play well with camelCase
+  - Ethnocentricity -- certain languages are unicase (hebrew, hindi, arabic) -- camelCase isn't feasible
+- SEO = good content strategy
+  - Search data is customer data, and it's plentiful
+  - intent-driven pages win searches
+  - Strategic, smaller doc sets win more than large, unstructured doc sets
+  - Search is primary way customers FIND docs (not our case at Smarsh but good to know)
+  - 
 
 ### Unconferences
-- 
+- N/A
 
 
