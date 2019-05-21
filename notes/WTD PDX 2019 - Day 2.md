@@ -1,7 +1,7 @@
 ---
 title: WTD PDX 2019 - Day 2
 created: '2019-05-20T13:24:38.426Z'
-modified: '2019-05-21T18:13:02.519Z'
+modified: '2019-05-21T18:32:31.447Z'
 tags: [WTD]
 ---
 
@@ -59,6 +59,8 @@ tags: [WTD]
 
 #### [Chris Bush - SDK Reference Manuals: A flow-based approach](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-chris-bush)
 - N/A to Smarsh at this point, but check talk if needed later.
+- SDK/dev docs is written for implementers, not users.
+- Function over form (naturally)
 
 #### [Kay Miles - Product Documentation Strategy: What Is It and Why Do We Need It?](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-kay-miles)
 - 
