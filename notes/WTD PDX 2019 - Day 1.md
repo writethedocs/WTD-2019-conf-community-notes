@@ -1,12 +1,21 @@
 ---
 title: WTD PDX 2019 - Day 1
 created: '2019-05-20T13:24:38.426Z'
-modified: '2019-05-20T23:04:26.361Z'
+modified: '2019-05-21T02:04:04.643Z'
 tags: [WTD]
 ---
 
 # WTD PDX 2019 - Day 1
 ## Monday 5/20
+
+### Day 1 Recap
+- **We're all in it together.** Everyone at WTD struggles with: analytics, delivering AND soliciting feedback, knowing the end user, writing without complexity, and content siloing.
+- **Exceptional conference scheduling.** WTD does a very good job of keeping the schedule moving and on-time. We started and ended according to schedule.
+- **Effortless networking? It can happen to you!** Sitting at a "round table" is the best way to network without feeling like it's a burden. I got to know almost everyone at my table, and we sat together the entire day. Now the trick is keeping in touch with these colleagues in the WTD Slack and/or LinkedIn.
+- **So many well-timed breaks.** 10-20 minute breaks between talks is awesome, smart, and, well, awesome.
+- **Editing got several (welcomed) shoutouts.** Editing and delivering feedback came up across many talks. From Ingrid Towey's "How to edit other people's content without pissing them off" to Kathleen Juell's "Writer? Editor? Teacher?" the message was clear: collaborative, respectful editing necessitates clarity, context and reasoning. It's not enough to mark an error and hope someone understands. We can only build better writers by offering explanations and reasoning! But, we must also avoid editing per our tastes, and ensure consistency via style guides and the like.
+- **Something inspiring: in-person group editing** The concept of in-person editing sessions came up many times. That seems hard to do with remote teams in different time zones. But the idea of being together to collaboratively answer "what is this doc's purpose, who is it for?" to better target content to end users is a valid concept worth exploring.
+- **Open source isn't so scary after all.** Don't be afraid to jump into open source contributions! And if you find it overwhelming, create your own open source project. Even if it's a simple app, there's an eagerness within the community to contribute. But templatize the work as much as possible before juggling mass-PR insanity.
 
 ### Talks
 
@@ -145,9 +154,23 @@ tags: [WTD]
 #### Paul Wallace - Localize the Docs!
 -  Review the talk if we go this route.
 
+#### Meghan Mahar - Tutorials, Tooltips, and Popups…oh MY! How to ease yourself and your users into in-app messaging.
+- Initial discussion is about selecting a tool (coding capable, segmentation, etc.)
+- Once you have the tool, buy-in is easy to add tooltips for common support issues, marketing and upcoming conferences, design team sending out surveys (no email that doesn't have much clickthru)
+- Testing, testing, testing. Design/test, etc. In-app messaging needs QA-level review. (WalkMe required a lot of testing to deploy properly, even for in-app/CTAs/pop-ups)
+- For pop-up content: allow skimming; track eye movements (think of the flow of each tooltip)
+- Don't interrupt users (ie waiting until they hit the submit button on an important task to give best practices than popping up in the middle of their workflow/pissing them off)
+- Give users an out (ie generating a PDF option for those who don't want to go thru the tooltip flow)
+- Give second chances -- a banner about an update was closed, then enable reeopening/reminder/icon to see that info they probably closed without looking (like update notifications being ignored and closed)
+- Be aware of massive amount of pop-ups and tooltips.
+  - Keep a cal -- example of a basic Jira board and when tooltips are appearing on a schedule
+  - Disable old messages (not repeating the content)
+- W/in company, be able to push back on the excitement from across the org as momentum is gained to DO MORE and MORE in-apps. Refer to your calendar, be aware of a campaign that already ran or is going. Control the flow of info or segment even further to specific user types.
+- www.ravenwriting.net (slides)
+
 ### Lightning Talks
 - Emphasis again on a peer review process, in person tho. No prior homework, meeting set, read the content together, then author explains who doc is for and group reviews and if the content satisfies the goal; giving the author the review in an hour and direct immediate feedback and feeling that the content was reviewed and accepted and understood and improved
-- Idea of a "docsbug bash" of a sorta code exercise to pitch, build excitement around the event; treat it like an event; follow up after. Get leadership involved. Idea here to encourage people to participate, across the org, to fix bugs/issues/errors.
+- Idea of a "docs bug bash" of a sorta code exercise to pitch, build excitement around the event; treat it like an event; follow up after. Get leadership involved. Idea here to encourage people to participate, across the org, to fix bugs/issues/errors.
 - Then actually follow up and track issues and log and complete the work
 - One of the talks reiterated the Techsmith SUI to disambiguate
 
