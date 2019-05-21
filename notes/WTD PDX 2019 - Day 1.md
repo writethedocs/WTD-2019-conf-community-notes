@@ -1,7 +1,7 @@
 ---
 title: WTD PDX 2019 - Day 1
 created: '2019-05-20T13:24:38.426Z'
-modified: '2019-05-21T02:04:04.643Z'
+modified: '2019-05-21T17:22:12.021Z'
 tags: [WTD]
 ---
 
@@ -19,7 +19,7 @@ tags: [WTD]
 
 ### Talks
 
-#### Heather Stenson - Any friend of the docs is a friend of mine: Cultivating a community of documentation advocates
+#### [Heather Stenson - Any friend of the docs is a friend of mine: Cultivating a community of documentation advocates](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-heather-stenson)
 - Small team @ Mapbox; originally one writer, but quality docs
 - How? Multiple people across the org collaborating. Even tho not part of the team, they were "Friends of the Docs."
 - SMEs/meetings declined/last-minute feedback (typical story)
@@ -45,7 +45,7 @@ tags: [WTD]
 - Docs Dopamine Feedback Loop > people who reach out > we are responsive and helpful > they have a good experience > they come back
 - DO: model the behavior we want to see (open issues, share, help and follow up quickly); relenquish control a bit -- FotD means won't control every sentence...control lost is gained productivity; set boundaries (so people know what to do and how to operate) (example of automated doc testing before publish so there's a gate) (some content requires TW sign off to prevent gotchas); help the helpers as much as you can (make connections, PM, adopt tasks, foster good feelings -- make FotD feel like never taken advantage of); make public announcements for helpers, be polite, give swag; stay friends w/ FotD when growth changes teams (i.e. if your team grows and needs less, stay friends)
 
-#### Ingrid Towey - How to edit other people's content without pissing them off
+#### [Ingrid Towey - How to edit other people's content without pissing them off](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-ingrid-towey)
 - Being diplomatic AND effective
 - Principles to live by:
   - All on the same side
@@ -83,7 +83,7 @@ tags: [WTD]
   - It's all about the relationship.
 - When getting feedback, assume positive intent!
 
-#### Kathleen Juell - Writer? Editor? Teacher?
+#### [Kathleen Juell - Writer? Editor? Teacher?](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-kathleen-juell)
 - Create docs with the right level of access
 - Teaching exists at the heart of every doc
 - Empower users.
@@ -108,7 +108,7 @@ tags: [WTD]
 - Writing like a teacher: why does your doc exist, and who is it for? Asking why, clarifying; understand the goal so the reader picks up on desired principles; understand audience and accomodate experience difference as much as possible
 - Write like an editor: Clarify whys; use templates; approach as a new users/newbie
 
-#### Shannon Crabill - Documenting for Open Source
+#### [Shannon Crabill - Documenting for Open Source](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-shannon-crabill)
 - Starting in open source (Hacktober); overwhelming and frustrating to contribute in GH and repos
 - Decided to make her own project in JS then
 - Halloween calculator; opened up on GH, surprised at # of PRs
@@ -123,11 +123,11 @@ tags: [WTD]
 - Use templates
 - Properly tag
 
-#### Mark F Iverson - Harvest Past Experience to be a Great Tech Writer
+#### [Mark F Iverson - Harvest Past Experience to be a Great Tech Writer](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-mark-f-iverson)
 - Circuitous journey (he went from tech support to QA to dev to PM to tech writer)
 - Similar to my own journey!
 
-#### Mike Jang - How I Learned to Stop Worrying and Love the Command Line
+#### [Mike Jang - How I Learned to Stop Worrying and Love the Command Line](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-mike-jang)
 - slides.com/mike-1/command-line
 - Empathy -- to understand CLI helps us have empathy for the dev/sysadmin users we write for
 - Ideal = our docs have everything I need v. reality = frustration and trying to get to the point
@@ -151,10 +151,10 @@ tags: [WTD]
 - 6 essential Command Line skills (check the slides + extra skills)
 - Benefits = write docs with the info readers need, feeling empathy for readers, transform your docs; docs as code
 
-#### Paul Wallace - Localize the Docs!
+#### [Paul Wallace - Localize the Docs!](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-paul-wallace)
 -  Review the talk if we go this route.
 
-#### Meghan Mahar - Tutorials, Tooltips, and Popups…oh MY! How to ease yourself and your users into in-app messaging.
+#### [Meghan Mahar - Tutorials, Tooltips, and Popups…oh MY! How to ease yourself and your users into in-app messaging.](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-meghan-mahar)
 - Initial discussion is about selecting a tool (coding capable, segmentation, etc.)
 - Once you have the tool, buy-in is easy to add tooltips for common support issues, marketing and upcoming conferences, design team sending out surveys (no email that doesn't have much clickthru)
 - Testing, testing, testing. Design/test, etc. In-app messaging needs QA-level review. (WalkMe required a lot of testing to deploy properly, even for in-app/CTAs/pop-ups)
