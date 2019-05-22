@@ -1,12 +1,21 @@
 ---
 title: WTD PDX 2019 - Day 2
 created: '2019-05-20T13:24:38.426Z'
-modified: '2019-05-21T21:36:28.650Z'
+modified: '2019-05-22T02:27:30.676Z'
 tags: [WTD]
 ---
 
 # WTD PDX 2019 - Day 2
 ## Tuesday 5/21
+
+### Day 2 Recap
+
+- **Include the end user!** The (spoken) truth: docs are better when users are included in the documentation pipeline. This seems obvious, but multiple times today the point was made: if you aren't tracking and analyzing the users of your content, you're effectively throwing work at the wall and hoping it sticks.
+- **Analytics are hard.** Sarah Moir's [excellent talk](https://www.youtube.com/watch?v=5kTWjB28TDI&list=PLZAeFn6dfHpmuHCu5qsIkmp9H5jFD-xq-&index=18&t=0s) on using data to prioritize your backlog hit home for me. I'm currently in the midst of working through a Google Analytics relaunch for our Confluence-based doc portal. Even the data-confident like Sarah admit to the challenges and potholes of parsing through countless data sources. Focus and narrative are key. It's nice to know the difficulty curve isn't my experience alone.
+- **I'm not an "impostor."** This sounds obvious, but I'm still relatively new to this field. Also, being a lone tech writer at multiple orgs was hard. When I first came across Tom Johnson's [I'd Rather Be Writing](https://idratherbewriting.com/), I was both deeply impressed that someone "got it," and simultaneously disappointed in myself that I hadn't figured these things out myself. Impostor syndrome is a real, awful feeling. (I'll also add that, as a white, straight and cisgender male, my experience of feeling like an outsider =/= the additional levels of anxiety and pressure marginalized groups face breaking into this field and the tech industry as a whole.) Joining the WTD Slack, I also felt a wave of relief and embarrassment: there are so many smart documentarians posting insanely engaging content and thoughts that, again, I felt like I was the only one who hadn't fixed tech writing. But the conference reinforced the truth that all of us struggle; we're almost all cross-disciplined and perpetual learners. We bring a breadth of experience to our jobs, and that means we each approach a shared set of problem in unique ways, at varying levels of understanding and expertise. Obvious as that may be, WTD PDX is helping me let go of my anxiety and realize the openness of this community is sincere. People know where you've been, and they're happy to help you along the way.
+- **Take the elevator sometimes.** Business cases aren't my favorite activity. I get they're necessary, but that doesn't mean I love writing one. One salient piece of advice I took away from Matt Reiner's energetic [talk on business cases](https://www.youtube.com/watch?v=8ZPUOwBIi3g&list=PLZAeFn6dfHpmuHCu5qsIkmp9H5jFD-xq-&index=19&t=0s) is to *work on your elevator pitch*. I'm loathe to admit that he's right, only because that means I have to force myself to hone that skill. The truth is, if you can't succinctly present your "why" in a brief ride up a few floors, you haven't done the work. Go back to the drawing board, friend.
+- **"Strategery" is also hard, but invaluable.** Kay Miles killed it discussing information architecture and content strategy. [Her talk](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-kay-miles) reminded those of us who think about content strategically that we have long, exhausting battles to fight. As Kay said, to win, you have to: (1) Fix the root cause; (2) Be consistent; (3) Be Google, offer relevant, mindreading-level of content search returns. If you aren't solving content issues at the root, those ugly doc weeds will keep sprouting up a dozen at a time.
+- **Open source seems cool, right?** This is a lazy point for me to make, but yes, open source is rad. I left WTD more than a bit envious of the documentarians presenting their success stories from deploying and maintaining effective, efficient, capable docs for open source products. I don't work in that world, but it's something I intend to keep my eye on as I dive deeper into docs-as-code.
 
 ### Talks
 
@@ -95,10 +104,43 @@ tags: [WTD]
   - [_Intertwingled_](https://www.amazon.com/Intertwingled-Information-Everything-Peter-Morville/dp/0692225587/ref=sr_1_1?keywords=intertwingled&qid=1558474568&s=books&sr=1-1) by Morville
 
 #### [Jessica Parsons - Lessons Learned in a Year of Docs-Driven Development](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-jessica-parsons)
--
+- Doc Eng @ Netlify
+- Design docs first, then product/platform; aka Readme Driven Dev
+- IE code comment, spec files, Open API, user-facing docs
+- "Is this the same as user stories? Specs?" Somewhat, but just parts/artifacts of development in DDD model
+- "Isn't this just waterfall? All this planning before code?" No, it can be even more agile than what is typically done. Describing what the thing should do is much easier to iterate on than trying to build it first, then fixing later...
+- Benefits @ Netlify -> leadership support, docs generally valued in the org, good communication (being remote, distributed, diff timezones)
+- Lessons:
+  - Devs can feel guilty about not coding "enough," not being sure where to start, etc.
+  - Document the process to GET to DDD. It'll help jumpstart the model.
+  - Project templates created in KMS have required artifacts (user stories, being sure to name all the features, API workflow, customer docs, etc.)
+  - Create scaffolding for when writing is hard --> doc templates given for structure and guidance; tips; examples
+  - Try diagrams, other non-written content modalities
+  - Designate a leader, PM, or at least rotating project lead
+  - Make docs work count "Glue work" by Tanya Reilly (work that is important but falls under the radar; instead, make that work valuable and promotable)
+- Benefits:
+  - Writing first, generally has benefits
+  - Identify and adjust earlier on in DDD by testing and theorizing without the massive investment in tech and then realizing the dev solution won't work.
+  - Productive convos in having writers identify complex blockers early on in trying to explain the future process first
+  - Leverages experience! IE, if it's hard to "name" things in dev, why not...have writers and marketing/design team involved and **name things!** -- reduce complexity and confusion at the start; and devs would rather not have to do that anyway.
+  - Accountability helps people reading docs. (Review and timeline specificity); notify readers (GH PRs, diffs); announce changes in project channels
+  - DDD enables efficiency. Joining the project midstream, with docs already existing, made the new dev independent AND encouraged inclusivity (don't force them to ask, think of impostor syndrome bc they have to learn)
+  - Teams w/ docs can work in parallel
+  - **Support learns about features far in advance**
+  - Marketing can create campaigns/posts/collateral far in advance, too!
+  - Gotcha: **Docs driven doesn't mean user centered**
+  - Get users involved sooner
+  - Twitter updates from @verythorough
 
 #### [Jodie Putrino - Defying the Status Quo: How a grassroots effort can transform an organization](https://www.writethedocs.org/conf/portland/2019/speakers/#speaker-portland-2019-jodie-putrino)
-- 
+- At F5, status quo was: Dita > Waterfall > PDFs > Adobe CQ > Posted internally
+- Shifted to open source, used open source tools: simple markup > PRs for reviews > Agile > deploy w/ CI/CD
+- Docs-as-code!
+- Recapping some of 2017 talk she gave on docs-as-code
+- 2015 presentations referenced: Github using Github to Document Github and Google talk from Riona (this year)
+- Helping others enjoy and succeed in this docs project got others in the company to promote and properly represent the content. Advocates! When starting, you may have to be the sole, relentless advocate and shepherd the fledgling product until it is self-sustaining.
+- Be consistent in your messaging. Don't overpromise to the point of losing credibility and seeming inconsistent. Inconsistency breeds vulnerability and needing to defend your project and having misrepresenting comments used against you.
+- Be patient, as the biggest changes take the longest time.
 
 ### Lightning Talks
 - Mapbox using Copyeditor, an automated checker for prose (rules like non-descriptive link text)
@@ -116,7 +158,6 @@ tags: [WTD]
   - intent-driven pages win searches
   - Strategic, smaller doc sets win more than large, unstructured doc sets
   - Search is primary way customers FIND docs (not our case at Smarsh but good to know)
-  - 
 
 ### Unconferences
 - N/A
